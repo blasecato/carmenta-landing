@@ -1,0 +1,38 @@
+.Header {
+  background: $primaryColor;
+  &__topBar.columns {
+    max-width: $maxContainer;
+    margin: auto;
+    padding: 2px 50px;
+    margin-bottom: 0;
+    img {
+      line-height: 0;
+    }
+    li {
+      display: inline-block;
+      padding: 0 6px;
+      line-height: 0;
+      vertical-align: middle;
+      &:first-child {
+        padding-left: 0;
+      }
+    }
+    .column:last-child {
+      text-align: right;
+      li {
+        padding: 0 24px;
+        &:last-child {
+          padding-right: 0;
+        }
+      }
+    }
+
+    a {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 14px;
+      color: white;
+    }
+  }
+}

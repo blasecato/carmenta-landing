@@ -1,0 +1,46 @@
+# Created by juan2ramos
+
+
+
+### WordPress ###
+# ignore everything in the root except the "wp-content" directory.
+build/*
+!wp-content/
+
+# ignore everything in the "wp-content" directory, except:
+# "themes" 
+build/wp-content/*
+!build/wp-content/themes/
+
+# ignore everything in the "themes" directory, except:
+# "themes" amasfac
+
+build/wp-content/themes/*
+!build/wp-content/themes/amasfac
+
+### ignore log files and database mysql  ###
+dbdata
+*.log
+*.sql
+*.sqlite
+
+# ignore node dependency directories
+node_modules/
+
+# ignore files OSX
+.DS_Store
+.AppleDouble
+.LSOverride
+
+### Windows ###
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+### Code ###
+# Visual Studio Code - https://code.visualstudio.com/
+.settings/
+.vscode/
+
+### env ###
+.env
