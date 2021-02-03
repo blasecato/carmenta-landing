@@ -18,7 +18,7 @@ module.exports = (options) => {
     entry: path.resolve(__dirname, '../src/index.js'),
     output: {
       path: path.resolve(__dirname, '../../assets'),
-      filename: 'js/bundle.js',
+      filename: 'js/main.js',
     },
     module: {
       rules: [

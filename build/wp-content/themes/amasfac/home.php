@@ -16,7 +16,7 @@ get_header();
 ?>
 
     <div class="Home__banner">
-    <?php $urlTemplate = get_template_directory_uri()?> 
+    <?php $urlTemplate = get_template_directory_uri()?>
         <div class="columns container">
             <div class="column">
             <?php the_custom_logo()?>
@@ -56,7 +56,7 @@ get_header();
                     <img alt="" src="<?php echo "$urlTemplate/assets/images/arrow-green.png" ?>"srcset=""/>
                 </a>
                 <button class="login-green">Ingresa al Campus</button>
-            </div> 
+            </div>
             <div class="Home__campus--box-right">
                 <div class="Home__campus--box-right__top">
                     <h2 class="title">
@@ -67,7 +67,7 @@ get_header();
                         <span>Nunc senectus.</span>
                         <img alt="" src="<?php echo "$urlTemplate/assets/images/arrow-green.png" ?>"srcset=""/>
                     </a>
-                </div> 
+                </div>
                 <div class="Home__campus--box-right__bottom">
                     <h2 class="title">
                         Acervo digital priv.
@@ -77,8 +77,8 @@ get_header();
                         <span>Turpis tellus.</span>
                         <img alt="" src="<?php echo "$urlTemplate/assets/images/arrow-green.png" ?>"srcset=""/>
                     </a>
-                </div> 
-            </div>  
+                </div>
+            </div>
         </div>
 
     </div>
@@ -170,10 +170,10 @@ get_header();
                             <img alt="" src="<?php echo "$urlTemplate/assets/images/v.png" ?>"srcset=""/>
                             <img alt="" src="<?php echo "$urlTemplate/assets/images/y.png" ?>"srcset=""/>
                         </div>
-                    </div> 
+                    </div>
                     <div class="Home__videos--content--box-right__box box-bottom">
                         <h3>Más videos relacionados</h3>
-                    </div>   
+                    </div>
                 </div>
             </div>
         </div>
@@ -207,7 +207,15 @@ get_header();
         </div>
     </div>
 	<main id="primary" class="site-main">
-
+       
+<div class="center">
+  <div><h3>1</h3></div>
+  <div><h3>2</h3></div>
+  <div><h3>3</h3></div>
+  <div><h3>4</h3></div>
+  <div><h3>5</h3></div>
+  <div><h3>6</h3></div>
+</div>
 	</main><!-- #main -->
 
 <?php
