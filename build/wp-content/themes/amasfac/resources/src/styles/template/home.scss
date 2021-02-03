@@ -3,6 +3,7 @@
     background-image: url("../images/banner.png");
     background-size: cover;
     background-repeat: no-repeat;
+    padding-bottom: 60px;
     .container {
       flex-direction: column;
     }
@@ -478,6 +479,7 @@
   &__press {
     width: 100%;
     .container {
+      margin-top: 80px;
       .content {
         height: 585.61px;
         background-color: #fff;
