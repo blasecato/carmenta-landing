@@ -35,6 +35,55 @@ $primaryColor: #018da9;
 body {
   font-family: "Raleway", sans-serif;
 }
+html {
+  margin: 0% !important;
+  margin-top: 0% !important;
+}
+
+.more-button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  span {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    color: #01262E;
+    margin-right: 5px;
+  }
+}
+
+.button {
+  height: 50px;
+  &--white {
+    background: #FFFFFF;
+    border-radius: 1px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    color: #018DA9;
+    width: 156px;
+  }
+}
+
+.login-green {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  width: 180px;
+  height: 50px;
+  background: #018DA9;
+  border-radius: 1px;
+  color: #FFFFFF;
+  margin-top: 20px;
+  border-color: #018da9;
+}
 
 h1,
 h2,
