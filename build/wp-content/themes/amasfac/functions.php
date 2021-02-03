@@ -183,7 +183,22 @@ if ( defined( 'JETPACK__VERSION' ) ) {
  */
 
 function wp4wp_scripts() {
+		/**
+ * carousel
+ */
+	
+
+wp_enqueue_script('jquery_js', '//code.jquery.com/jquery-1.11.0.min.js', array(), '1.0', true);
+wp_enqueue_style('slick_css', '//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css', array(), '1.0', false);
+wp_enqueue_script('slick_js', '//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js', array(), '1.0', true);
+
+
   wp_enqueue_style('main_css', get_template_directory_uri() . '/assets/styles/main.css', array(), '1.0', false);
-	wp_enqueue_script('main_js', get_template_directory_uri() . '/assets/scripts/main.js', array(), '1.0', true);
+	wp_enqueue_script('main_js', get_template_directory_uri() . '/assets/js/main.js', array(), '1.0', true);
+
+
+
+
+
 }
 add_action('wp_enqueue_scripts', 'wp4wp_scripts');
