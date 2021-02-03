@@ -203,7 +203,61 @@ get_header();
     </div>
     <div class="Home__press">
         <div class="container">
-        <div class="content"></div>
+        <div class="content">
+            <div class="content--header">
+                <h1>Prensa</h1>
+                <div class="images">
+                    <img alt="" src="<?php echo "$urlTemplate/assets/images/search.png" ?>"srcset=""/>
+                    <img alt="" src="<?php echo "$urlTemplate/assets/images/menu.png" ?>"srcset=""/>
+                </div>
+            </div>
+            <div class="content--body">
+                <div class="content--body--box">
+                    <div class="content--body__card">
+                        <h3>Website.com</h3>
+                        <div class="line"></div>
+                        <span class="date">10 de Octubre, 2020</span>
+                        <p>Duis ipsum viverra massa enim lectus. Mi sed massa mauris cursus quis at blandit vulputate lorem. Facilisi scelerisque bibendum enim ipsum, lectus. </p>
+                        <a href="./" class="more-button">
+                            <span>Leer noticia</span>
+                            <img alt="" src="<?php echo "$urlTemplate/assets/images/arrow-green.png" ?>"srcset=""/>
+                        </a>
+                    </div>
+                    <div class="content--body__card">
+                        <h3>Website.com</h3>
+                        <div class="line"></div>
+                        <span class="date">10 de Octubre, 2020</span>
+                        <p>Duis ipsum viverra massa enim lectus. Mi sed massa mauris cursus quis at blandit vulputate lorem. Facilisi scelerisque bibendum enim ipsum, lectus. </p>
+                        <a href="./" class="more-button">
+                            <span>Leer noticia</span>
+                            <img alt="" src="<?php echo "$urlTemplate/assets/images/arrow-green.png" ?>"srcset=""/>
+                        </a>
+                    </div>
+                </div>
+                <div class="content--body--box">
+                    <div class="content--body__card">
+                        <h3>Website.com</h3>
+                        <div class="line"></div>
+                        <span class="date">10 de Octubre, 2020</span>
+                        <p>Duis ipsum viverra massa enim lectus. Mi sed massa mauris cursus quis at blandit vulputate lorem. Facilisi scelerisque bibendum enim ipsum, lectus. </p>
+                        <a href="./" class="more-button">
+                            <span>Leer noticia</span>
+                            <img alt="" src="<?php echo "$urlTemplate/assets/images/arrow-green.png" ?>"srcset=""/>
+                        </a>
+                    </div>
+                    <div class="content--body__card">
+                        <h3>Website.com</h3>
+                        <div class="line"></div>
+                        <span class="date">10 de Octubre, 2020</span>
+                        <p>Duis ipsum viverra massa enim lectus. Mi sed massa mauris cursus quis at blandit vulputate lorem. Facilisi scelerisque bibendum enim ipsum, lectus. </p>
+                        <a href="./" class="more-button">
+                            <span>Leer noticia</span>
+                            <img alt="" src="<?php echo "$urlTemplate/assets/images/arrow-green.png" ?>"srcset=""/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
         </div>
     </div>
 	<main id="primary" class="site-main">

@@ -1,5 +1,4 @@
 import './styles/main.scss';
-console.log('asdadsadasdad');
 $('.center').slick({
   centerMode: true,
   centerPadding: '60px',

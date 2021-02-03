@@ -9570,6 +9570,78 @@ h5 {
       height: 585.61px;
       background-color: #fff;
       border-style: double; }
+      .Home__press .container .content--header {
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        margin-top: 40px;
+        padding: 20px; }
+        .Home__press .container .content--header h1 {
+          margin-bottom: 0;
+          font-family: Cinzel;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 40px;
+          line-height: 100.3%;
+          color: #01262E; }
+        .Home__press .container .content--header .images {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center; }
+          .Home__press .container .content--header .images img {
+            margin: 0 10px; }
+      .Home__press .container .content--body {
+        padding: 20px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex; }
+        .Home__press .container .content--body--box {
+          width: 50%; }
+        .Home__press .container .content--body__card {
+          max-width: 400px;
+          margin-top: 20px; }
+          .Home__press .container .content--body__card p {
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 150%;
+            -webkit-font-feature-settings: 'pnum' on, 'lnum' on;
+                    font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #01262E; }
+          .Home__press .container .content--body__card .date {
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 150%;
+            -webkit-font-feature-settings: 'pnum' on, 'lnum' on;
+                    font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #000000;
+            opacity: 0.5; }
+          .Home__press .container .content--body__card .line {
+            background-color: #D5CB77;
+            height: 1px;
+            width: 164.28px; }
+          .Home__press .container .content--body__card h3 {
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 23px;
+            -webkit-font-feature-settings: 'pnum' on, 'lnum' on;
+                    font-feature-settings: 'pnum' on, 'lnum' on;
+            color: #01262E; }
 
 
 /*# sourceMappingURL=main.css.map*/
