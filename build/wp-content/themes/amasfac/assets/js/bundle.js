@@ -11,7 +11,7 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/main.scss */ "./src/styles/main.scss");
 
-$('.center').slick({
+$('.caroucel-Social-networks').slick({
   centerMode: true,
   centerPadding: '60px',
   slidesToShow: 3,

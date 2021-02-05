@@ -556,4 +556,127 @@
       }
     }
   }
+  &__Social-networks {
+    .container {
+      flex-direction: column;
+      width: 100%;
+      padding: 50px;
+      h1 {
+        font-family: Cinzel;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 100.3%;
+        color: #01262E;
+        margin-bottom: 50PX;
+      }
+    }
+    &__content {
+      display: flex;
+      .box-left {
+        .cont-img {
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          margin-bottom: 50px;
+          img {
+            margin-right: 20px;
+          }
+        }
+        p {
+          width: 297px;
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 150%;
+          font-feature-settings: 'pnum' on, 'lnum' on;
+          color: #000000;
+        }
+        h2 {
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 20px;
+          line-height: 23px;
+          font-feature-settings: 'pnum' on, 'lnum' on;
+          color: #01262E;
+          margin-top: 20px;
+        }
+        h3 {
+          font-family: Raleway;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 23px;
+          font-feature-settings: 'pnum' on, 'lnum' on;
+          color: #01262E;
+        }
+      }
+      .box-right {
+        .item {
+          height: 200px;
+          width: 300px !important;
+          background-color: red;
+        }
+      }
+    }
+  }
+  &__sponsorships {
+    padding: 50px 0;
+    &__box {
+      width: 50%;
+      padding: 30px;
+      h1 {
+        font-family: Cinzel;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 100.3%;
+        color: #01262E;
+      }
+      p {
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 150%;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #01262E;
+        margin: 30px 0;
+      }
+      a {
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+        color: #018DA9;
+        margin: 40px 0;
+      }
+      .button {
+        margin-top: 40px;
+        height: 50px;
+      }
+    }
+    .box--right {
+      background-image: url("../images/back-black.png");
+      padding: 30px;
+      h2 {
+        font-family: Cinzel;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 32px;
+        color: #D5CB77;
+        width: 100%;
+        text-align: center;
+      }
+    }
+    .container {
+      display: flex;
+      width: 100%;
+    }
+  }
 }

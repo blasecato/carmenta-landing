@@ -59,6 +59,7 @@ html {
   height: 50px;
   &--white {
     background: #FFFFFF;
+    border-color: #FFFFFF;
     border-radius: 1px;
     font-family: Raleway;
     font-style: normal;
@@ -67,6 +68,24 @@ html {
     line-height: 14px;
     color: #018DA9;
     width: 156px;
+  }
+  &--green {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    background: #018DA9;
+    border-color: #018DA9;
+    border-radius: 1px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    img {
+      margin-right: 15px;
+      margin-top: -4px;
+    }
   }
 }
 
@@ -100,3 +119,4 @@ h5 {
 
 @import "template/header";
 @import "template/home";
+@import "template/footer";

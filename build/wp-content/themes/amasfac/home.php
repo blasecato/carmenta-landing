@@ -108,6 +108,21 @@ get_header();
             </div>
         </div>
     </div>
+
+    <div class="Home__sponsorships">
+        <div class="container">
+            <div class="Home__sponsorships__box">
+                <h1>Patrocinios</h1>
+                <p>Nulla vitae mauris hendrerit commodo. Suspendisse auctor faucibus tristique odio diam leo amet. Mattis arcu id adipiscing amet tempor, ante. Nec hac elit vel quis purus etiam duis. Mauris, in tellus non quam dolor et amet, ornare sit. Vel elementum egestas dis pulvinar nulla diam condimentum. Sit cras nunc tortor nullam. Ac cursus gravida risus, morbi ut porttitor. Eget quis diam arcu quis at arcu vitae feugiat. Vitae donec ullamcorper.</p>
+                <a href="./">Ver esquema de patrocinios</a>
+                <button class="button button--green">Únete como patrocinante</button>
+            </div>
+            <div class="Home__sponsorships__box box--right">
+                <h2>Nuestros patrocinantes </h2>
+            </div>
+        </div>
+    </div>
+
     <div class="Home__articles">
         <div class="Home__articles__container">
             <div class="Home__articles__card card1">
@@ -260,16 +275,37 @@ get_header();
         </div>
         </div>
     </div>
+    <div class="Home__Social-networks">
+        <div class="container">
+            <h1>Redes sociales</h1>
+            <div class="Home__Social-networks__content">
+                <div class="box-left">
+                    <div class="cont-img">
+                        <img alt="" src="<?php echo "$urlTemplate/assets/images/facebook-black.png" ?>"srcset=""/>
+                        <img alt="" src="<?php echo "$urlTemplate/assets/images/youtube-black.png" ?>"srcset=""/>
+                        <img alt="" src="<?php echo "$urlTemplate/assets/images/twiter-black.png" ?>"srcset=""/>
+                    </div>
+                    <p>
+                        “Nisl diam ornare porta diam sagittis quis. Scelerisque est dolor sagittis ipsum. Eu blandit ornare et cursus risus. At maecenas adipiscing convallis amet in. Purus nibh facilisis sodales purus sapien ultrices adipiscing. Lorem libero consectetur non dignissim. Non eu at aliquam eget nam scelerisque. Velit urna id risus sit velit ac.
+                        Orci, adipiscing consequat diam egestas dolor, eu diam sodales molestie. Laoreet.”
+                    </p>
+                    <h2>-Lic. Alejandro Sobera </h2>
+                    <h3>Presidente Nacional de AMASFAC</h3>
+                </div>
+                <div class="box-right">
+                    <div class="caroucel-Social-networks">
+                        <div class="item"><h3>1</h3></div>
+                        <div class="item"><h3>2</h3></div>
+                        <div class="item"><h3>3</h3></div>
+                        <div class="item"><h3>4</h3></div>
+                    </div>
+                </div>
+            </div>                
+        </div>
+    </div>
 	<main id="primary" class="site-main">
        
-<div class="center">
-  <div><h3>1</h3></div>
-  <div><h3>2</h3></div>
-  <div><h3>3</h3></div>
-  <div><h3>4</h3></div>
-  <div><h3>5</h3></div>
-  <div><h3>6</h3></div>
-</div>
+
 	</main><!-- #main -->
 
 <?php
