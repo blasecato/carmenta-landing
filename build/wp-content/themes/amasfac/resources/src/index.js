@@ -1,10 +1,9 @@
 import './styles/main.scss';
 $('.caroucel-Social-networks').slick({
-  centerMode: true,
-  centerPadding: '60px',
-  slidesToShow: 3,
+  slidesToShow: 2,
   dots: true,
   arrows: false,
+  infinite: true,
   responsive: [
     {
       breakpoint: 768,
@@ -12,7 +11,7 @@ $('.caroucel-Social-networks').slick({
         arrows: false,
         // centerMode: true,
         // centerPadding: '40px',
-        slidesToShow: 3
+        slidesToShow: 2
       }
     },
     {

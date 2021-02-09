@@ -1,138 +1,44 @@
 .footer {
-    background-color: #01262E;
+    background-color: #ffffff;
     padding: 40px 20px;
     margin-top: 100px;
+    padding-top: 0;
     .container {
         display: flex;
-        justify-content: center;
-    }
-    &__box {
-        width: 50%;
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        .card-float {
-            position: absolute;
-            background: #FFFFFF;
-            border-radius: 2px;
-            width: 329.72px;
-            height: 178.36px;
-            margin-top: 110px;
-            margin-left: 20px;
-            padding: 15px 25px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            .button {
-                width: 226px;
-            }
-            .text {
+        justify-content: space-between;
+        .box-left {
+            .list {
                 display: flex;
-                align-items: flex-start;
-                &--more {
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    span {
-                        font-family: Raleway;
-                        font-style: normal;
-                        font-weight: 500;
-                        font-size: 12px;
-                        line-height: 150%;
-                        font-feature-settings: 'pnum' on, 'lnum' on;
-                        color: #BDBDBD;
-                    }
-                }
-                h4 {
-                    font-family: Raleway;
-                    font-style: normal;
-                    font-weight: 500;
-                    font-size: 12px;
-                    line-height: 150%;
-                    font-feature-settings: 'pnum' on, 'lnum' on;
-                    color: #333333;
-                }
-                img {
-                    margin-right: 15px;
-                    margin-top: 3px;
+                li {
+                    font-size: 0.85714286em;
+                    line-height: 2.16666667em;
+                    font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+                    color: #252525;
+                    font-weight: 300;
+                    font-variant-ligatures: common-ligatures;
+                    font-weight: 700;
+                    margin-right: 20px;
                 }
             }
-        }
-        .copy {
-            margin-top: 75px;
-            font-family: Raleway;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 12px;
-            line-height: 150%;
-            text-align: center;
-            font-feature-settings: 'pnum' on, 'lnum' on;
-            color: #FFFFFF;
-        }
-        &--right {
-            padding: 30px;
-            padding-top: 0;
-            padding-left: 50px;
-        }
-        .cont-list{
-            display: flex;
-            justify-content: space-between;
-            width: 100%;
-            align-items: flex-end;
-            img {
-                margin: 0 10px;
-            }
-        } 
-        h2 {
-            font-family: Cinzel;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 24px;
-            line-height: 32px;
-            color: #FFFFFF;
-            margin-bottom: 20px;
-        }
-        ul {
-            margin-top: 30px;
-            li {
-                font-family: Raleway;
-                font-style: normal;
-                font-weight: bold;
-                font-size: 12px;
-                line-height: 14px;
-                color: #FFFFFF;
-                margin: 15px 0;
-                
-            }
-        }
-        .mapouter {
-            width: 100%;
-            height: 471px;
-            margin-top: -110px;
-            .gmap_canvas {
-                height: 471px;
-                width: 100%;
-            }
-        }
-        iframe {
-            width: 100%;
-            height: 471px;
-        }
-        &--text {
-            display: flex;
-            justify-content: flex-end;
-            width: 100%;
-            margin-top: 50px;
             p {
-                font-family: Raleway;
-                font-style: normal;
-                font-weight: bold;
-                font-size: 12px;
-                line-height: 14px;
-                text-align: right;
-                color: #FFFFFF;
-                margin-left: 50px;
+                line-height: 1.35714286em;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+                font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+                color: #666666;
+                font-weight: 400;
+                font-size: 0.85714286em;
+                opacity: .5;
+            }
+        }
+        .networks {
+            img {
+                margin: 0 15px;
+                width: 20px;
+                height: 20px;
+                object-fit: cover;
             }
         }
     }
+    
 }

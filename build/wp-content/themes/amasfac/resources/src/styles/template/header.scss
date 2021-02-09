@@ -1,5 +1,16 @@
 .Header {
-  background: $primaryColor;
+  // background: $primaryColor;
+  background-color: transparent;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  padding: 15px;
+  img {
+    width: 166px;
+    height: 42px;
+    object-fit: cover;
+
+  }
   &__topBar.columns {
     max-width: $maxContainer;
     margin: auto;
@@ -20,7 +31,7 @@
     .column:last-child {
       text-align: right;
       li {
-        padding: 0 24px;
+        padding: 0 14px;
         &:last-child {
           padding-right: 0;
         }
@@ -28,11 +39,12 @@
     }
 
     a {
-      font-style: normal;
-      font-weight: bold;
-      font-size: 12px;
-      line-height: 14px;
       color: white;
+      font-size: 0.857142857142857em;
+      line-height: 2.166666666666667em;
+      text-transform: uppercase;
+      font-weight: 600;
+      opacity: .5;
     }
   }
 }

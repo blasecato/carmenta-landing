@@ -31,17 +31,7 @@
 		<header class="Header">
 			<nav class="columns is-mobile Header__topBar is-gapless">
 				<div class="column">
-					<ul>
-						<li>
-							<img src="<?php echo "$urlTemplate/assets/images/fb.svg" ?>" alt="" srcset="">
-						</li>
-						<li>
-							<img src="<?php echo "$urlTemplate/assets/images/yt.svg" ?>" alt="" srcset="">
-						</li>
-						<li>
-							<img src="<?php echo "$urlTemplate/assets/images/tw.svg" ?>" alt="" srcset="">
-						</li>
-					</ul>
+					<img src="<?php echo "$urlTemplate/assets/images/logo-c.png" ?>" alt="" srcset="">
 				</div>
 				<div class="column">
 					<?php wp_nav_menu(['theme_location' => 'menu-1', 'menu_id' => 'primary-menu']); ?>
